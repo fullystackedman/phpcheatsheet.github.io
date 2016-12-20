@@ -1,0 +1,28 @@
+*{box-sizing:border-box}
+img{max-width:100%;height:auto;outline:none}
+body{margin:0;font-family:'PT Sans',sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}
+h2{font-size:2rem;text-align:center}
+.wrapper{display:flex;flex-direction:column}
+.container{max-width:1000px;margin:0 auto}
+.content{flex-grow:1}
+.header{padding:30px 0;background:#00537E;background:-moz-linear-gradient(left,#00537E 0%,#3AA17E 100%);background:-webkit-linear-gradient(left,#00537E 0%,#3AA17E 100%);background:linear-gradient(to right,#00537E 0%,#3AA17E 100%);color:#fff;font-family:'Baloo Thambi',cursive;display:flex;align-items:center;justify-content:center}
+.logo{max-width:300px}
+.logo-img{max-width:300px;display:inline-block;*display:inline;*zoom:1}
+.logo-head{text-align:center;font-size:2.5rem;margin:5px 0}
+.logo-desc{font-family:'PT Sans',sans-serif;font-size:1.1rem;word-wrap:break-word;text-align:center}
+.logo-desc small{font-size:8px}
+.acc-item{margin-bottom:15px}
+.acc-title{-webkit-transition:background-color .2s;-moz-transition:background-color .2s;transition:background-color .2s;display:block;padding:5px 10px;color:#000;text-decoration:none;background-color:#eaeaea;border-bottom:1px solid #d1d1d1;font-weight:700}
+.acc-title:hover{background-color:#ddd}
+.acc-content{padding:0 10px;border:1px solid #ddd;border-top:none;margin-bottom:15px;display:none}
+.acc-list{margin:0;padding:0;list-style:none}
+.acc-list li{padding:10px 15px}
+.acc-list li:nth-child(odd){background-color:#eaeaea}
+.acc-list a{color:#00537E;text-decoration:none;outline:none}
+.acc-list a:hover{text-decoration:underline}
+.acc-link{margin:20px 0 10px 10px;display:inline-block;*display:inline;*zoom:1;border:1px solid #000;border-radius:5px;color:#000;text-decoration:none;padding:5px 10px;-webkit-transition:all .2s;-moz-transition:all .2s;transition:all .2s}
+.acc-link:hover{color:#00537E;border-color:#00537E}
+.sub-header{background:linear-gradient(to right,#00537E 0%,#3AA17E 100%);color:#fff;padding:5px 15px;font-size: 1rem;}
+.footer{padding:30px 0;background:#00537E;background:-moz-linear-gradient(left,#00537E 0%,#3AA17E 100%);background:-webkit-linear-gradient(left,#00537E 0%,#3AA17E 100%);background:linear-gradient(to right,#00537E 0%,#3AA17E 100%);color:#fff;display:flex;align-items:center;justify-content:center}
+.footer a{color:#fff;text-decoration:none}
+.footer a:hover{text-decoration:underline}
