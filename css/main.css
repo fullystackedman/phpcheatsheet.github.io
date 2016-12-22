@@ -1,7 +1,7 @@
 *{box-sizing:border-box}
 img{max-width:100%;height:auto;outline:none}
 body{margin:0;font-family:'Open Sans',sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}
-h2{font-size:2rem;text-align:center}
+h2{font-size:1.75rem;text-align:center}
 .wrapper{display:flex;flex-direction:column}
 .container{max-width:1000px;margin:0 auto}
 .content{flex-grow:1}
