@@ -1,1 +1,1 @@
-$(document).ready(function(){$('.acc-title').on('click',function(e){e.preventDefault();$(this).next().slideToggle();});console.log('В консольку тоже любишь заглядывать, да?', 'color: green;')});
+$(document).ready(function(){$('.acc-title').on('click',function(e){e.preventDefault();$(this).next().slideToggle();});console.log('В консольку тоже любишь заглядывать, да?')});
