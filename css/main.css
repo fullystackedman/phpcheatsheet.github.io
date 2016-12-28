@@ -2,6 +2,7 @@
 img{max-width:100%;height:auto;outline:none}
 body{margin:0;font-family:'Open Sans',sans-serif;line-height:1.5;-webkit-font-smoothing:antialiased}
 h2{font-size:1.75rem;text-align:center}
+a{border:none;outline:none}
 .wrapper{display:flex;flex-direction:column}
 .container{max-width:1000px;margin:0 auto}
 .content{flex-grow:1}
@@ -24,5 +25,5 @@ h2{font-size:1.75rem;text-align:center}
 .acc-link:hover{color:#00537E;border-color:#00537E}
 .sub-header{background:linear-gradient(to right,#00537E 0%,#3AA17E 100%);color:#fff;padding:5px 15px;font-size: 1rem;}
 .footer{padding:30px 0;background:#00537E;background:-moz-linear-gradient(left,#00537E 0%,#3AA17E 100%);background:-webkit-linear-gradient(left,#00537E 0%,#3AA17E 100%);background:linear-gradient(to right,#00537E 0%,#3AA17E 100%);color:#fff;display:flex;align-items:center;justify-content:center}
-.footer a{color:#fff;text-decoration:none}
+.footer a{color:#fff;text-decoration:none;display:inline-block;margin-right:15px}
 .footer a:hover{text-decoration:underline}
