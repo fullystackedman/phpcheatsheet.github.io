@@ -464,10 +464,67 @@
 						</p>
 					</div>
 				</div>
+
+				<div class="acc-item">
+					<a href="#" class="acc-title">Регулярные выражения</a>
+					<div class="acc-content">
+						<p>
+							<ul class="acc-list">
+								<li>
+									<b><a href="https://secure.php.net/preg_grep" target="_blank">preg_grep(pattern, arr)</a></b> — Возвращает массив вхождений, которые соответствуют шаблону
+								</li>
+								<li>
+									<b><a href="https://secure.php.net/preg_match" target="_blank">preg_match(pattern, str)</a></b> — Выполняет проверку на соответствие регулярному выражению
+								</li>
+								<li>
+									<b><a href="https://secure.php.net/preg_match_all" target="_blank">preg_match_all(pattern, str, arr)</a></b> — Выполняет глобальный поиск шаблона в строке
+								</li>
+								<li>
+									<b><a href="https://secure.php.net/preg_replace" target="_blank">preg_replace(pattern, replace, str)</a></b> — Выполняет поиск и замену по регулярному выражению
+								</li>
+								<li>
+									<b><a href="https://secure.php.net/preg_split" target="_blank">preg_split(pattern, str)</a></b> — Разбивает строку по регулярному выражению
+								</li>
+							</ul>
+							<a href="https://secure.php.net/manual/ru/ref.pcre.php" class="acc-link" target="_blank">Подробнее</a>
+							<h3 class="sub-header">Синтаксис регулярных выражений</h3>
+							<ul class="acc-list">
+								<li><b>^</b> — Начало строки</li>
+								<li><b>$</b> — Конец строки</li>
+								<li><b>.</b> — Любой символ, кроме переноса строки</li>
+								<li><b>(a|b)</b> — a или b</li>
+								<li><b>(...)</b> — Группа</li>
+								<li><b>[abc]</b> — Диапозон (a, b или c)</li>
+								<li><b>[^abc]</b> — Не a, не b и не c</li>
+								<li><b>[a-z]</b> — Буква между a и z</li>
+								<li><b>[A-Z]</b> — Буква в верхнем регистре между A и Z</li>
+								<li><b>*</b> — 0 или больше</li>
+								<li><b>*?</b> — 0 или больше, нежадный</li>
+								<li><b>+</b> — 1 или больше</li>
+								<li><b>+?</b> — 1 или больше, нежадный</li>
+								<li><b>{3}</b> — Ровно 3</li>
+								<li><b>{3,}</b> — 3 или больше</li>
+								<li><b>{3,5}</b> — от 3 до 5</li>
+								<li><b>{3,5}?</b> — от 3 до 5, нежадный</li>
+							</ul>
+							<h3 class="sub-header">Модификаторы шаблонов</h3>
+							<ul class="acc-list">
+								<li><b>g</b> — Глобальный поиск</li>
+								<li><b>i</b> — Регистронезависимый поиск</li>
+								<li><b>s</b> — Считать текст одной строкой</li>
+								<li><b>m</b> — Многострочный текст</li>
+								<li><b>x</b> — Разрешить комментарии и пробелы в шаблоне</li>
+								<li><b>e</b> — Выполнение подстановки</li>
+								<li><b>U</b> — Нежадный шаблон</li>
+							</ul>
+						</p>
+					</div>
+				</div>
 			</div>
 		</main>
 		<footer class="footer">
-			<a href="https://vk.com/iamreikan" target="_blank">Связаться с автором</a>
+			<a href="https://vk.com/iamreikan" target="_blank"><img src="img/vk.png" alt="vk" title="Связаться с автором" width="50" height="50"></a>
+			<a href="https://github.com/phpcheatsheet/phpcheatsheet.github.io" target="_blank"><img src="img/github.png" alt="github" title="Репозиторий на Гитхабе" width="40" height="40"></a>
 		</footer>
 	</div>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" defer></script>
