@@ -50,7 +50,7 @@
 								</li>
 								<li>
 									<b>Массивы <i>(array)</i></b> — Некие упорядоченные структуры, которые устанавливают соответствие между значением и ключом.<br>
-									Создаются двумя способами: языковой конструкцией <b>array()</b> либо с помощью квадратных скобок [](Начиная с PHP 5.4), приняв в качестве параметров пары ключ =&gt; значение(key =&gt; value), разделенные запятой.<br>
+									Создаются двумя способами: языковой конструкцией <b>array()</b> либо с помощью квадратных скобок [] (Начиная с PHP 5.4), приняв в качестве параметров пары ключ =&gt; значение(key =&gt; value), разделенные запятой.<br>
 									Примеры: <br>
 									<code>
 										array = array(
@@ -89,37 +89,37 @@
 						<p>
 							<ul class="acc-list">
 								<li>
-									<b><a href="https://secure.php.net/manual/ru/function.explode.php" target="_blank">explode(delimiter, string [, limit ])</a></b> — Разбивает строку с помощью разделителя
+									<b><a href="https://secure.php.net/manual/ru/function.explode.php" target="_blank">explode(delimiter, string)</a></b> — Разбивает строку с помощью разделителя
 								</li>
 								<li>
 									<b><a href="https://secure.php.net/manual/ru/function.implode.php" target="_blank"> implode(glue, pieces)</a></b> — Объединяет элементы массива в строку
 								</li> 
 								<li>
-									<b><a href="https://secure.php.net/manual/ru/function.trim.php" target="_blank"> trim(str [, character_mask = " \t\n\r\0\x0B" ])</a></b> — Удаляет пробелы(или другие символы) из начала и конца строки
+									<b><a href="https://secure.php.net/manual/ru/function.trim.php" target="_blank"> trim(string)</a></b> — Удаляет пробелы(или другие символы) из начала и конца строки
 								</li>
 								<li>
-									<b><a href="https://secure.php.net/manual/ru/function.rtrim.php" target="_blank"> rtrim(str [, character_mask ])</a></b> — Удаляет пробельные(или другие символы) из конца строки
+									<b><a href="https://secure.php.net/manual/ru/function.rtrim.php" target="_blank"> rtrim(string)</a></b> — Удаляет пробельные(или другие символы) из конца строки
 								</li>
 								<li>
-									<b><a href="https://secure.php.net/manual/ru/function.ltrim.php" target="_blank"> ltrim(str [, character_mask ])</a></b> — Удаляет пробельные(или другие символы) из начала строки
+									<b><a href="https://secure.php.net/manual/ru/function.ltrim.php" target="_blank"> ltrim(string)</a></b> — Удаляет пробельные(или другие символы) из начала строки
 								</li>
 								<li>
-									<b><a href="https://secure.php.net/manual/ru/function.md5.php" target="_blank"> md5(str [, raw_output = false ])</a></b> — Возвращает MD5-хэш строки
+									<b><a href="https://secure.php.net/manual/ru/function.md5.php" target="_blank"> md5(string)</a></b> — Возвращает MD5-хэш строки
 								</li>
 								<li>
-									<b><a href="https://secure.php.net/manual/ru/function.sha1.php" target="_blank"> sha1(str [, raw_output = false ])</a></b> — Возвращает SHA1-хэш строки
+									<b><a href="https://secure.php.net/manual/ru/function.sha1.php" target="_blank"> sha1(string)</a></b> — Возвращает SHA1-хэш строки
 								</li>
 								<li>
-									<b><a href="https://secure.php.net/manual/ru/function.nl2br.php" target="_blank"> nl2br( string [,  is_xhtml = true ])</a></b> — Вставляет HTML-код разрыва строки перед каждым переводом строки
+									<b><a href="https://secure.php.net/manual/ru/function.nl2br.php" target="_blank"> nl2br(string)</a></b> — Вставляет HTML-код разрыва строки перед каждым переводом строки
 								</li>
 								<li>
-									<b><a href="https://secure.php.net/manual/ru/function.str-replace.php" target="_blank">str_replace(search, replace, subject [, count ])</a></b> — Заменяет все вхождения строки поиска на строку замены
+									<b><a href="https://secure.php.net/manual/ru/function.str-replace.php" target="_blank">str_replace(search, replace, subject)</a></b> — Заменяет все вхождения строки поиска на строку замены
 								</li>
 								<li>
-									<b><a href="https://secure.php.net/manual/ru/function.str-ireplace.php" target="_blank">str_ireplace(search, replace, subject [, count ])</a></b> — Регистронезависимый вариант функции str_replace
+									<b><a href="https://secure.php.net/manual/ru/function.str-ireplace.php" target="_blank">str_ireplace(search, replace, subject)</a></b> — Регистронезависимый вариант функции str_replace
 								</li>
 								<li>
-									<b><a href="https://secure.php.net/manual/ru/function.strip-tags.php" target="_blank"> strip_tags(str [, allowable_tags ])</a></b> — Удаляет HTML и PHP-теги из строки
+									<b><a href="https://secure.php.net/manual/ru/function.strip-tags.php" target="_blank"> strip_tags(string)</a></b> — Удаляет HTML и PHP-теги из строки
 								</li>
 								<li>
 									<b><a href="https://secure.php.net/manual/ru/function.strlen.php" target="_blank">strlen(string)</a></b> — Возвращает длину строки
@@ -128,31 +128,31 @@
 									<b><a href="https://secure.php.net/manual/ru/function.strrev.php" target="_blank">strrev(string)</a></b> — Переворачивает строку задом наперед
 								</li>
 								<li>
-									<b><a href="https://secure.php.net/manual/ru/function.stripos.php" target="_blank">strpos(haystack, needle [, offset = 0 [, encoding = internal_encoding() ]])</a></b> — Возвращает позицию первого вхождения подстроки без учета регистра
+									<b><a href="https://secure.php.net/manual/ru/function.stripos.php" target="_blank">strpos(haystack, needle)</a></b> — Возвращает позицию первого вхождения подстроки без учета регистра
 								</li>
 								<li>
-									<b><a href="https://secure.php.net/manual/ru/function.strtolower.php" target="_blank">strtolower(str [, encoding = internal_encoding() ])</a></b> — Преобразует строку в нижний регистр
+									<b><a href="https://secure.php.net/manual/ru/function.strtolower.php" target="_blank">strtolower(string)</a></b> — Преобразует строку в нижний регистр
 								</li>
 								<li>
-									<b><a href="https://secure.php.net/manual/ru/function.strtoupper.php" target="_blank">strtoupper(str [, encoding = internal_encoding() ])</a></b> — Преобразует строку в верхний регистр
+									<b><a href="https://secure.php.net/manual/ru/function.strtoupper.php" target="_blank">strtoupper(string)</a></b> — Преобразует строку в верхний регистр
 								</li>
 								<li>
-									<b><a href="https://secure.php.net/manual/ru/function.substr.php" target="_blank">substr(str, start [, length = NULL [, encoding = internal_encoding() ]])</a></b> — Возвращает подстроку
+									<b><a href="https://secure.php.net/manual/ru/function.substr.php" target="_blank">substr(str, start)</a></b> — Возвращает подстроку
 								</li>
 								<li>
-									<b><a href="https://secure.php.net/manual/ru/function.strstr.php" target="_blank">strstr(haystack, needle [, before_needle = false ])</a></b> — Находит первое вхождение подстроки
+									<b><a href="https://secure.php.net/manual/ru/function.strstr.php" target="_blank">strstr(haystack, needle)</a></b> — Находит первое вхождение подстроки
 								</li>
 								<li>
-									<b><a href="https://secure.php.net/manual/ru/function.htmlspecialchars.php" target="_blank">htmlspecialchars(string [, flags = ENT_COMPAT | ENT_HTML401 [, encoding = ini_get("default_charset") [, double_encode = true ]]])</a></b> — Преобразует специальные символы в HTML-сущности
+									<b><a href="https://secure.php.net/manual/ru/function.htmlspecialchars.php" target="_blank">htmlspecialchars(string)</a></b> — Преобразует специальные символы в HTML-сущности
 								</li>
 								<li>
-									<b><a href="https://secure.php.net/manual/ru/function.htmlspecialchars-decode.php" target="_blank">htmlspecialchars_decode(string [, flags = ENT_COMPAT | ENT_HTML401 ])</a></b> — Преобразует специальные HTML-сущности обратно в соответствующие символы
+									<b><a href="https://secure.php.net/manual/ru/function.htmlspecialchars-decode.php" target="_blank">htmlspecialchars_decode(string)</a></b> — Преобразует специальные HTML-сущности обратно в соответствующие символы
 								</li>
 								<li>
-									<b><a href="https://secure.php.net/manual/ru/function.htmlentities.php" target="_blank">htmlentities(string [, flags = ENT_COMPAT | ENT_HTML401 [, encoding = ini_get("default_charset") [, double_encode = true ]]])</a></b> — Преобразует все возможные символы в соответствующие HTML-сущности
+									<b><a href="https://secure.php.net/manual/ru/function.htmlentities.php" target="_blank">htmlentities(string)</a></b> — Преобразует все возможные символы в соответствующие HTML-сущности
 								</li>
 								<li>
-									<b><a href="https://secure.php.net/manual/ru/function.wordwrap.php" target="_blank">wordwrap(str [, width = 75 [, break = "\n" [, cut = false ]]])</a></b> — Переносит строку по указанному количеству символов
+									<b><a href="https://secure.php.net/manual/ru/function.wordwrap.php" target="_blank">wordwrap(string)</a></b> — Переносит строку по указанному количеству символов
 								</li>
 							</ul>
 							<a href="https://secure.php.net/manual/ru/ref.strings.php" class="acc-link" target="_blank">Подробнее</a>
@@ -167,18 +167,17 @@
 							<ul class="acc-list">
 								<li>
 									<b>
-										<a href="https://secure.php.net/manual/ru/function.count.php" target="_blank">count(array_or_countable [, mode = 
-											COUNT_NORMAL ])</a>
+										<a href="https://secure.php.net/manual/ru/function.count.php" target="_blank">count(array_or_countable)</a>
 									</b> — Подсчитывает количество элементов массива или что-то в объекте
 								</li>
 								<li>
 									<b>
-										<a href="https://secure.php.net/manual/ru/function.array-diff.php" target="_blank">array_diff(array1, array2 [, ... ])</a>
+										<a href="https://secure.php.net/manual/ru/function.array-diff.php" target="_blank">array_diff(array1, array2)</a>
 									</b> — Вычисляет расхождение массивов
 								</li>
 								<li>
 									<b>
-										<a href="https://secure.php.net/manual/ru/function.array-intersect.php" target="_blank">array_intersect(array1, array2 [, ... ])</a>
+										<a href="https://secure.php.net/manual/ru/function.array-intersect.php" target="_blank">array_intersect(array1, array2)</a>
 									</b> — Вычисляет схождение массивов
 								</li>
 								<li>
@@ -188,7 +187,7 @@
 								</li>
 								<li>
 									<b>
-										<a href="https://secure.php.net/manual/ru/function.array-keys.php" target="_blank">array_keys(array [, search_value = null [, strict = false ]])</a>
+										<a href="https://secure.php.net/manual/ru/function.array-keys.php" target="_blank">array_keys(array)</a>
 									</b> — Возвращает все или некоторое подмножество ключей массива
 								</li>
 								<li>
@@ -198,47 +197,47 @@
 								</li>
 								<li>
 									<b>
-										<a href="https://secure.php.net/manual/ru/function.array-merge.php" target="_blank">array_merge(array1 [, ... ])</a>
+										<a href="https://secure.php.net/manual/ru/function.array-merge.php" target="_blank">array_merge(array1)</a>
 									</b> — Сливает один или большее количество массивов
 								</li>
 								<li>
 									<b>
-										<a href="https://secure.php.net/manual/ru/function.array-rand.php" target="_blank">array_rand(array [, num = 1 ])</a>
+										<a href="https://secure.php.net/manual/ru/function.array-rand.php" target="_blank">array_rand(array)</a>
 									</b> — Выбирает одно или несколько случайных значений из массива
 								</li>
 								<li>
 									<b>
-										<a href="https://secure.php.net/manual/ru/function.array-reverse.php" target="_blank">array_reverse(array [, preserve_keys = false ])</a>
+										<a href="https://secure.php.net/manual/ru/function.array-reverse.php" target="_blank">array_reverse(array)</a>
 									</b> — Возвращает массив с элементами в обратном порядке
 								</li>
 								<li>
 									<b>
-										<a href="https://secure.php.net/manual/ru/function.compact.php" target="_blank">compact(varname1 [, ... ])</a>
+										<a href="https://secure.php.net/manual/ru/function.compact.php" target="_blank">compact(varname1)</a>
 									</b> — Создает массив, содержащий названия переменных и их значения
 								</li>
 								<li>
 									<b>
-										<a href="https://secure.php.net/manual/ru/function.extract.php" target="_blank">extract(array [, flags = EXTR_OVERWRITE [, prefix = NULL ]])</a>
+										<a href="https://secure.php.net/manual/ru/function.extract.php" target="_blank">extract(array)</a>
 									</b> — Импортирует переменные из массива в текущую таблицу символов
 								</li>
 								<li>
 									<b>
-										<a href="https://secure.php.net/manual/ru/function.arsort.php" target="_blank">arsort(array [, sort_flags = SORT_REGULAR ])</a>
+										<a href="https://secure.php.net/manual/ru/function.arsort.php" target="_blank">arsort(array)</a>
 									</b> — Сортирует массив в обратном порядке, сохраняя ключи
 								</li>
 								<li>
 									<b>
-										<a href="https://secure.php.net/manual/ru/function.asort.php" target="_blank">asort(array [, sort_flags = SORT_REGULAR ])</a>
+										<a href="https://secure.php.net/manual/ru/function.asort.php" target="_blank">asort(array)</a>
 									</b> — Сортирует массив, сохраняя ключи
 								</li>
 								<li>
 									<b>
-										<a href="https://secure.php.net/manual/ru/function.sort.php" target="_blank">sort(array [, sort_flags = SORT_REGULAR ])</a>
+										<a href="https://secure.php.net/manual/ru/function.sort.php" target="_blank">sort(array)</a>
 									</b> — Сортирует массив
 								</li>
 								<li>
 									<b>
-										<a href="https://secure.php.net/manual/ru/function.rsort.php" target="_blank">rsort(array [, sort_flags = SORT_REGULAR ])</a>
+										<a href="https://secure.php.net/manual/ru/function.rsort.php" target="_blank">rsort(array)</a>
 									</b> — Сортирует массив в обратном порядке
 								</li>
 								<li>
@@ -248,7 +247,7 @@
 								</li>
 								<li>
 									<b>
-										<a href="https://secure.php.net/manual/ru/function.array-search.php" target="_blank">array_search(needle, haystack [, strict = false ])</a>
+										<a href="https://secure.php.net/manual/ru/function.array-search.php" target="_blank">array_search(needle, haystack)</a>
 									</b> — Осуществляет поиск данного значения в массиве и возвращает ключ первого найденого элемента в случае удачи
 								</li>
 								<li>
@@ -258,12 +257,12 @@
 								</li>
 								<li>
 									<b>
-										<a href="https://secure.php.net/manual/ru/function.array-unique.php" target="_blank">array_unique(array [, sort_flags = SORT_STRING ])</a>
+										<a href="https://secure.php.net/manual/ru/function.array-unique.php" target="_blank">array_unique(array)</a>
 									</b> — Убирает повторяющиеся значения из массива
 								</li>
 								<li>
 									<b>
-										<a href="https://secure.php.net/manual/ru/function.array-unshift.php" target="_blank">array_unshift(array, value1 [, ... ])</a>
+										<a href="https://secure.php.net/manual/ru/function.array-unshift.php" target="_blank">array_unshift(array, value)</a>
 									</b> — Добавляет один или несколько элементов в начало массива
 								</li>
 								<li>
@@ -278,17 +277,17 @@
 								</li>
 								<li>
 									<b>
-										<a href="https://secure.php.net/manual/ru/function.array-push.php" target="_blank">array_push(array, value1 [, ... ])</a>
+										<a href="https://secure.php.net/manual/ru/function.array-push.php" target="_blank">array_push(array, value)</a>
 									</b> — Добавляет один или несколько элементов в конец массива
 								</li>
 								<li>
 									<b>
-										<a href="https://secure.php.net/manual/ru/function.in-array.php" target="_blank">in_array(needle, haystack [, strict = FALSE ])</a>
+										<a href="https://secure.php.net/manual/ru/function.in-array.php" target="_blank">in_array(needle, haystack)</a>
 									</b> — Проверяет, присутствует ли в массиве значение
 								</li>
 								<li>
 									<b>
-										<a href="https://secure.php.net/manual/ru/function.list.php" target="_blank">list(var1 [, ... ])</a>
+										<a href="https://secure.php.net/manual/ru/function.list.php" target="_blank">list(var1, var2)</a>
 									</b> — Присваивает переменным из списка значения подобно массиву
 								</li>
 							</ul>
