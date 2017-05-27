@@ -19,7 +19,7 @@
 .acc-item{margin-bottom:15px}
 .acc-title{-webkit-transition:background-color .2s;-moz-transition:background-color .2s;transition:background-color .2s;display:block;padding:5px 10px;color:#000;text-decoration:none;background-color:#eaeaea;border-bottom:1px solid #d1d1d1;font-weight:700}
 .acc-title:hover{background-color:#ddd}
-.acc-content{padding:0 10px;border:1px solid #ddd;border-top:none;margin-bottom:15px;display:block}
+.acc-content{padding:0 10px;border:1px solid #ddd;border-top:none;margin-bottom:15px;display:none}
 .acc-list{margin:0;padding:0;list-style:none}
 .acc-list li{padding:10px 15px}
 .acc-list li:nth-child(odd){background-color:#eaeaea}
