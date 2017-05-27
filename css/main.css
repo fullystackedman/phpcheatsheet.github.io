@@ -27,7 +27,7 @@
 .acc-list a:hover{text-decoration:underline}
 .acc-link{margin:20px 0 10px 10px;display:inline-block;*display:inline;*zoom:1;border:1px solid #000;border-radius:5px;color:#000;text-decoration:none;padding:5px 10px;-webkit-transition:all .2s;-moz-transition:all .2s;transition:all .2s}
 .acc-link:hover{color:#00537E;border-color:#00537E}
-.sub-header{background:linear-gradient(to right,#00537E 0%,#3AA17E 100%);color:#fff;padding:5px 15px;font-size: 1rem;}
+.sub-header{padding:5px 15px;font-size: 1rem;}
 .footer{display:none !important;padding:30px 0;background:#00537E;background:-moz-linear-gradient(left,#00537E 0%,#3AA17E 100%);background:-webkit-linear-gradient(left,#00537E 0%,#3AA17E 100%);background:linear-gradient(to right,#00537E 0%,#3AA17E 100%);color:#fff;display:flex;align-items:center;justify-content:center}
 .footer a{color:#fff;text-decoration:none;display:inline-block;margin-right:15px}
 .footer a:hover{text-decoration:underline}
